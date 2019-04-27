@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-VENDOR_PATH := device/xiaomi/msm8937-common
+VENDOR_PATH := device/lge/msm8937-common
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += \
 
 # Ambient display
 PRODUCT_PACKAGES += \
-    XiaomiDoze
+    SamsungDoze
 
 # ANT+
 PRODUCT_PACKAGES += \
